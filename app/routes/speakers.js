@@ -12,6 +12,7 @@ router.get('/speakers', function(req, res) {
         info += `
         <li> 
             <h2> ${item.name} </h2>
+            <img src="/images/speakers/${item.shortname}_tn.jpg" alt="speakers">
             <p> ${item.summary} </p>
         </li>
         `;
@@ -19,7 +20,8 @@ router.get('/speakers', function(req, res) {
 
     // send info variable to the speakers route
     res.send(`
-        <h1> Roux Meetups </h1>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <h1> Roux Academy Meetups </h1>
         ${info}
     `);
 });
@@ -29,8 +31,10 @@ router.get('/speakers/:speakerid', function(req, res) {
     var speaker = dataFile.speakers[req.params.speakerid];
 
     res.send(`
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
         <h2> ${speaker.title} </h2>
         <h2> with ${speaker.name} </h2>
+        <img src="/images/speakers/${speaker.shortname}.jpg" alt="speakers">
         <p> ${speaker.summary} </p>
     `);
 });
