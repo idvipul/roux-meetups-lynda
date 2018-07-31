@@ -1,5 +1,7 @@
 .DS_Store
+.idea/*
 node_modules
+mode_modules/*
 .tmp
 .jshintrc
 package-lock.json
