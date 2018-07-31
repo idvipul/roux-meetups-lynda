@@ -8,7 +8,7 @@ router.get('/', function (req, res) {
         <h1> Roux Meetups </h1>
         <img src="/images/misc/background.jpg" alt="background" style="height: 300px;">
         <!--<img src="../public/images/misc/background.jpg" alt="background" style="height: 300px;">-->
-        <p> Roux Academy Meetups put together artists from all walks of life</p>
+        <p> Roux Academy Meetups put together artists from all walks of life </p>
     `);
 });
 
