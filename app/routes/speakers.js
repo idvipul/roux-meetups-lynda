@@ -23,6 +23,7 @@ router.get('/speakers', function(req, res) {
         <link rel="stylesheet" type="text/css" href="/css/style.css">
         <h1> Roux Academy Meetups </h1>
         ${info}
+        <script src="/reload/reload.js"></script>
     `);
 });
 
@@ -36,6 +37,7 @@ router.get('/speakers/:speakerid', function(req, res) {
         <h2> with ${speaker.name} </h2>
         <img src="/images/speakers/${speaker.shortname}.jpg" alt="speakers">
         <p> ${speaker.summary} </p>
+        <script src="/reload/reload.js"></script>
     `);
 });
 
