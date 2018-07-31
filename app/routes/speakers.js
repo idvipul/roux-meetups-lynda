@@ -2,7 +2,7 @@ var express = require('express');
 var router = express();
 
 router.get('/speakers', function(req, res) {
-    var info = "";
+    var info = '';
     // get appData from app.js
     var dataFile = req.app.get('appData');
 
@@ -21,6 +21,17 @@ router.get('/speakers', function(req, res) {
     res.send(`
         <h1> Roux Meetups </h1>
         ${info}
+    `);
+});
+
+router.get('/speakers/:speakerid', function(req, res) {
+    var dataFile = req.app.get('appData');
+    var speaker = dataFile.speakers[req.params.speakerid];
+
+    res.send(`
+        <h2> ${speaker.title} </h2>
+        <h2> with ${speaker.name} </h2>
+        <p> ${speaker.summary} </p>
     `);
 });
 
