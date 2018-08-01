@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var path = require('path');
 var reload = require('reload');
 var dataFile = require('./data/data.json');
 
@@ -7,8 +8,13 @@ app.set('port', process.env.PORT || 3000 );
 
 // send info from main file to speakers.js
 app.set('appData', dataFile); // global variable appData will now hold the dataFile
+app.set('view engine', 'ejs');
+app.set('views', 'app/views');
 
-app.use(express.static('app/public')); // static method --> designate a folder
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/img', express.static(path.join(__dirname, 'public/images')));
+app.use('/js', express.static(path.join(__dirname, 'public/javascripts')));
+app.use('/css', express.static(path.join(__dirname, 'public/stylesheets')));
 app.use(require('./routes/index'));
 app.use(require('./routes/speakers'));
 
