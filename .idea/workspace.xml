@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bca06c7-9d1b-406a-97cf-e678853421e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partials/template/header.ejs" afterPath="$PROJECT_DIR$/app/views/partials/template/header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partials/template/jsdefaults.ejs" afterPath="$PROJECT_DIR$/app/views/partials/template/jsdefaults.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
+      <file leaf-file-name="chat.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/public/js/chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/chat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -42,16 +32,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/partials/template/header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -89,7 +69,6 @@
         <option value="$PROJECT_DIR$/app/views/partials/content/speakerslist.ejs" />
         <option value="$PROJECT_DIR$/app/views/feedback.ejs" />
         <option value="$PROJECT_DIR$/app/routes/index.js" />
-        <option value="$PROJECT_DIR$/app/views/partials/template/jsdefaults.ejs" />
         <option value="$PROJECT_DIR$/app/routes/api.js" />
         <option value="$PROJECT_DIR$/app/public/js/feedback.js" />
         <option value="$PROJECT_DIR$/app/data/feedback.json" />
@@ -98,6 +77,8 @@
         <option value="$PROJECT_DIR$/app/routes/chat.js" />
         <option value="$PROJECT_DIR$/app/views/chat.ejs" />
         <option value="$PROJECT_DIR$/app/views/partials/template/header.ejs" />
+        <option value="$PROJECT_DIR$/app/views/partials/template/jsdefaults.ejs" />
+        <option value="$PROJECT_DIR$/app/public/js/chat.js" />
       </list>
     </option>
   </component>
@@ -155,6 +136,19 @@
               <item name="Lynda" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lynda" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lynda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lynda" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lynda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lynda" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lynda" type="b2602c69:ProjectViewProjectNode" />
@@ -228,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533003950751</updated>
-      <workItem from="1533003953847" duration="26261000" />
+      <workItem from="1533003953847" duration="27355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26261000" />
+    <option name="totallyTimeSpent" value="27355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,14 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/template/jsdefaults.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -487,18 +473,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/feedback.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/template/jsdefaults.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/template/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -511,10 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/template/header.ejs">
+    <entry file="file://$PROJECT_DIR$/app/public/js/chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
