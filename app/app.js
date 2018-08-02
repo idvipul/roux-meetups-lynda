@@ -25,4 +25,12 @@ var server = app.listen(app.get('port'), function() {
 
 io.attach(server);
 
+io.on('connection', function (socket) {
+   console.log('User Connected!');
+
+   socket.on('disconnet', function () {
+     console.log('User Disconnected!')
+   });
+});
+
 reload(server, app);
