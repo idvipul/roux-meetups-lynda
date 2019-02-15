@@ -6,6 +6,7 @@ node_modules/
 .tmp
 .idea
 .idea/
+.idea/*
 .jshintrc
 package-lock.json/
 package-lock.json
